@@ -1,5 +1,4 @@
-
-Multi Agent Tales
+# Multi-Agent-Tales
 
 ![Architecture Diagram](Architecture%20Diagram.jpg)
 
@@ -7,7 +6,7 @@ An advanced AI storytelling platform where multiple specialized agents collabora
 
 ---
 
-## 🖼️ Interface Previews
+## Interface Previews
 
 | Home Page | Story Generation | Generated Story |
 |-----------|-----------------|-----------------|
@@ -15,7 +14,7 @@ An advanced AI storytelling platform where multiple specialized agents collabora
 
 ---
 
-## 🌟 Features
+## Features
 
 - **Multi-Agent Architecture**: Narrator, Protagonist, Antagonist, Scene Builder, Dialogue Generator
 - **Intelligent Rate Limiting**: Sophisticated request management across Gemini models
@@ -25,7 +24,7 @@ An advanced AI storytelling platform where multiple specialized agents collabora
 
 ---
 
-## 🏗️ Architecture
+## Architecture
 
 ### Agent Roles
 - **Narrator**: Sets the scene, third-person perspective
@@ -36,11 +35,11 @@ An advanced AI storytelling platform where multiple specialized agents collabora
 
 ---
 
-## 🚀 Quick Start
+## Quick Start
 
 ### 1. Clone the Repository
 ```bash
-git clone https://github.com/kumarchinmay0704/MultiAgentTales.git
+git clone https://github.com/TheDeepDelve/Multi-Agent-Tales.git
 cd MultiAgentTales
 ```
 
@@ -63,7 +62,7 @@ python setup_models.py
 
 ---
 
-## 📖 Usage
+## Usage
 
 Use the `generate_story` function from `setup_models.py`:
 ```python
@@ -107,7 +106,7 @@ Each agent can be configured with:
 
 ---
 
-## 🛠️ Development
+## Development
 
 ### Project Structure
 ```
@@ -119,7 +118,7 @@ MultiAgentTales/
 ├── storyweaver/
 ├── templates/
 ├── Interface Images/
-│   ├── Home Page.jpg
+│   ├── Story Build-Up Input.jpg
 │   ├── Terminal Snap - Story Generation.jpg
 │   └── Generated Story.jpg
 ├── Architecture Diagram.jpg
@@ -132,7 +131,7 @@ MultiAgentTales/
 
 ---
 
-## 🔒 Security
+## Security
 
 - API keys stored in environment variables
 - `.env` excluded from version control
@@ -141,7 +140,7 @@ MultiAgentTales/
 
 ---
 
-## 🤝 Contributing
+## Contributing
 
 1. Fork the repository
 2. Create a feature branch (`git checkout -b feature/amazing-feature`)
@@ -151,137 +150,6 @@ MultiAgentTales/
 
 ---
 
-## 📝 License
+## Contact
 
-This project is licensed under the MIT License - see the LICENSE file for details.
-
----
-
-## 🙏 Acknowledgments
-
-- Google Gemini API for powerful language models
-- LangChain for AI application framework
-- Python community for excellent tools and libraries
-- **Scene Builder**: Constructs atmospheric and vivid scenes
-- **Dialogue Generator**: Produces natural character conversations
-
-## 🚀 Quick Start
-
-### 1. Clone the Repository
-
-```bash
-git clone https://github.com/kumarchinmay0704/MultiAgentTales.git
-cd MultiAgentTales
-```
-
-### 2. Install Dependencies
-
-```bash
-pip install -r requirements.txt
-```
-
-### 3. Set Up Environment Variables
-
-Create a `.env` file in the project root:
-
-```
-GOOGLE_API_KEY=your_google_api_key_here
-```
-
-Get your API key from Google AI Studio.
-
-### 4. Run the Example
-
-```bash
-python setup_models.py
-```
-
-## 📖 Usage
-
-You can use the `generate_story` function from `setup_models.py`:
-
-```python
-from setup_models import generate_story
-
-# Generate a horror story
-story = generate_story(
-    "Begin a horror story featuring Alex and Maya in an abandoned hospital",
-    num_elements=5,
-    ending_type='suspense'
-)
-
-for i, element in enumerate(story, 1):
-    print(f"\n--- Part {i} ---")
-    print(element)
-```
-
-### Available Ending Types
-
-- `suspense` - Cliffhanger ending
-- `dramatic` - High-stakes resolution
-- `happy` - Satisfying conclusion
-- `tragic` - Emotional loss
-- `twist` - Unexpected plot twist
-- `cliffhanger` - Unanswered questions
-- `mysterious` - Open interpretation
-- `bittersweet` - Mixed emotions
-
-## 🔧 Configuration
-
-Each agent can be configured with:
-
-- **Temperature**: Controls creativity (0.0-1.0)
-- **Top_p**: Nucleus sampling parameter
-- **Top_k**: Limits vocabulary diversity
-- **Max Output Tokens**: Response length limit
-
-### Rate Limiting
-
-- **RPM (Requests Per Minute)**: Prevents API throttling
-- **RPD (Requests Per Day)**: Daily usage tracking
-- **Automatic Retry**: Exponential backoff on failures
-
-## 🛠️ Development
-
-### Project Structure
-
-```
-NLP PROJECT/
-├── app.py
-├── requirements.txt
-├── setup_models.py
-├── static/
-├── storyweaver/
-├── templates/
-```
-
-### Adding New Agents
-
-1. Define agent configuration in `MODEL_CONFIGS`
-2. Create agent class inheriting from `BaseAgent`
-3. Add to `StoryOrchestrator.agents`
-
-## 🔒 Security
-
-- API keys are stored in environment variables
-- `.env` file is excluded from version control
-- Rate limiting prevents API abuse
-- Error handling with graceful degradation
-
-## 🤝 Contributing
-
-1. Fork the repository
-2. Create a feature branch (`git checkout -b feature/amazing-feature`)
-3. Commit your changes (`git commit -m 'Add amazing feature'`)
-4. Push to the branch (`git push origin feature/amazing-feature`)
-5. Open a Pull Request
-
-## 📝 License
-
-This project is licensed under the MIT License - see the LICENSE file for details.
-
-## 🙏 Acknowledgments
-
-- Google Gemini API for powerful language models
-- LangChain for AI application framework
-- Python community for excellent tools and libraries 
+Harsh Deep - [LinkedIn](https://www.linkedin.com/in/harshdeep7199/) - [Email](harshdeep7199@gmail.com)
