@@ -1,6 +1,6 @@
 # Multi-Agent-Tales
 
-![Architecture Diagram](Architecture%20Diagram.jpg)
+<img src="Architecture%20Diagram.jpg" alt="Architecture Diagram" width="500"/>
 
 An advanced AI storytelling platform where multiple specialized agents collaborate to generate dynamic, multi-perspective narratives. Powered by Google Gemini models, intelligent rate limiting, and orchestrated story progression.
 
@@ -8,9 +8,15 @@ An advanced AI storytelling platform where multiple specialized agents collabora
 
 ## Interface Previews
 
-| Home Page | Story Generation | Generated Story |
-|-----------|-----------------|-----------------|
-| ![Story Build-Up Input](Interface%20Images/Story%20Build-Up%20Input.png) | ![Terminal Snap - Story Generation](Interface%20Images/Terminal%20Snap%20-%20Story%20Generation.png) | ![Generated Story](Interface%20Images/Generated%20Story.png) |
+
+### Story Build-Up Input
+![Story Build-Up Input](Interface%20Images/Story%20Build-Up%20Input.png)
+
+### Terminal Snap - Story Generation
+![Terminal Snap - Story Generation](Interface%20Images/Terminal%20Snap%20-%20Story%20Generation.png)
+
+### Generated Story
+![Generated Story](Interface%20Images/Generated%20Story.png)
 
 ---
 
