@@ -1,7 +1,7 @@
 # Multi-Agent-Tales
 
 <div align="center">
-  <img src="Architecture%20Diagram.jpg" alt="Architecture Diagram" width="400"/>
+  <img src="Architecture.jpg" alt="Architecture Diagram" width="400"/>
 </div>
 
 An advanced AI storytelling platform where multiple specialized agents collaborate to generate dynamic, multi-perspective narratives. Powered by Google Gemini models, intelligent rate limiting, and orchestrated story progression.
