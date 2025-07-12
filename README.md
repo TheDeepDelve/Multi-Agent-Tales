@@ -11,7 +11,7 @@ An advanced AI storytelling platform where multiple specialized agents collabora
 
 | Home Page | Story Generation | Generated Story |
 |-----------|-----------------|-----------------|
-| ![Home Page](Interface%20Images/Home%20Page.jpg) | ![Terminal Snap - Story Generation](Interface%20Images/Terminal%20Snap%20-%20Story%20Generation.jpg) | ![Generated Story](Interface%20Images/Generated%20Story.jpg) |
+| ![Story Build-Up Input](Interface%20Images/Story%20Build-Up%20Input) | ![Terminal Snap - Story Generation](Interface%20Images/Terminal%20Snap%20-%20Story%20Generation.jpg) | ![Generated Story](Interface%20Images/Generated%20Story.jpg) |
 
 ---
 
