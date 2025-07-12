@@ -1,5 +1,5 @@
-# Multi-Agent-Tales
-# MultiAgentTales 🚀📚
+
+Multi Agent Tales
 
 ![Architecture Diagram](Architecture%20Diagram.jpg)
 
